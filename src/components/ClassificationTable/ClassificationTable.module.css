@@ -1,0 +1,63 @@
+.tableContainer {
+    background-color: #2d3748;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #4a5568;
+}
+
+.table th {
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.table td {
+    color: #a0aec0;
+}
+
+.underweight {
+    color: #81e6d9;
+}
+
+.normal {
+    color: #68d391;
+}
+
+.overweight {
+    color: #faf089;
+}
+
+.obese1 {
+    color: #f6ad55;
+}
+
+.obese2 {
+    color: #fc8181;
+}
+
+.obese3 {
+    color: #f56565;
+}
+
+.table td[class^="classification"] {
+    font-weight: 600;
+}
