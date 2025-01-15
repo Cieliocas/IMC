@@ -1,4 +1,4 @@
-import { IMCData, FormData } from '../types/imc';
+import { IMCData, FormData } from '../../types/imc';
 
 export function calculateIMC({ height, weight }: FormData): IMCData {
     const imc = weight / ((height / 100) ** 2);
