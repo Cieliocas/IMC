@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Form.module.css';
-import { FormData } from '../../types/imc';
+import { FormData } from '../../../types/imc';
 
 interface FormProps {
     formData: FormData;
