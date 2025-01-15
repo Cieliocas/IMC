@@ -36,7 +36,7 @@
     border-radius: 0.25rem;
     font-weight: 600;
     color: #fff;
-    background: linear-gradient(135deg, #3182ce 0%, #2b6cb0 100%);
+    background: linear-gradient(135deg, #f706ff 0%, #1d58fc 100%);
     cursor: pointer;
     transition: opacity 0.2s ease-in-out;
 }
