@@ -1,0 +1,48 @@
+.result {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #2d3748;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 0.5rem;
+}
+
+.imc {
+    font-size: 1rem;
+    color: #e2e8f0;
+    margin-bottom: 0.25rem;
+}
+
+.classification {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.underweight {
+    color: #81e6d9;
+}
+
+.normal {
+    color: #68d391;
+}
+
+.overweight {
+    color: #faf089;
+}
+
+.obese1 {
+    color: #f6ad55;
+}
+
+.obese2 {
+    color: #fc8181;
+}
+
+.obese3 {
+    color: #f56565;
+}
