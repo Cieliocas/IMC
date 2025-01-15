@@ -1,11 +1,6 @@
 import React from 'react';
 import styles from './Result.module.css';
-
-interface IMCData {
-    imc: number;
-    classification: string;
-}
-
+import { IMCData } from '../../../types/imc';
 interface ResultProps {
     result: IMCData;
 }
