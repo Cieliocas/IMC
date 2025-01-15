@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { calculateIMC } from './utils/calculateIMC';
-import { FormData, IMCData } from './types/imc';
 import { Form } from './components/Form/Form';
 import { Result } from './components/Result/Result';
 import { ClassificationTable } from './components/ClassificationTable/ClassificationTable';
+import { FormData, IMCData } from '../types/imc';
 import styles from './App.module.css';
+
 
 export default function App() {
   const [formData, setFormData] = useState<FormData>({ height: 0, weight: 0 });
